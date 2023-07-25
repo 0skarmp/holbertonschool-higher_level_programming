@@ -52,6 +52,6 @@ class Rectangle:
         accumulator = ""
         for i in range(self.height):
             for j in range(self.width):
-                accumulator +="#"
+                accumulator += "#"
             accumulator += "\n"
-        return accumulator
+        return accumulator[:-1]
