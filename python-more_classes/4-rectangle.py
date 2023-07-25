@@ -57,4 +57,4 @@ class Rectangle:
         return accumulator[:-1]
 
     def __repr__(self):
-        return f"Rectangle(width={self.width}, height={self.height})"
+        return f"Rectangle({self.width}, {self.height})"
