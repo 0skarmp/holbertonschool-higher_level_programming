@@ -1,11 +1,15 @@
 #!/usr/bin/python3
 """
-this module define a square.
+this module is a Rectangle.
 """
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
+    """
+    this class define a Rectangle.
+    and have to method area size.
+    """
 
     def __init__(self, size):
         self.__size = size
