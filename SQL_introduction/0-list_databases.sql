@@ -1,2 +1,2 @@
---Scrip to list all the DATABASES
+--Scrip to list all the DATABASES.
 SHOW BATABASES;
