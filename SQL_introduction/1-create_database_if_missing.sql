@@ -1,2 +1,2 @@
 --Script that create a DATABASES.
-CREATE DATABASES;
+CREATE DATABASE;
