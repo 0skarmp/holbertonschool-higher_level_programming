@@ -1,0 +1,2 @@
+-- SCRIPT THAT LISTS OF THE NUMBERS.
+SELEC score, Count(*) AS NUMBER FROM second_table GROUP BY score ORDER BY score DESC;
