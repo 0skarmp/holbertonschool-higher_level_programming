@@ -1,2 +1,2 @@
 -- SCRIPT THAT LISTS OF THE NUMBERS.
-SELECT score, Count(*) AS NUMBER FROM second_table GROUP BY score ORDER BY score DESC;
+SELECT score, Count(*) as number FROM second_table GROUP BY score ORDER BY score DESC;
